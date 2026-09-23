@@ -17,7 +17,7 @@ export default function Home() {
       .then((res) => res.json())
       .then((response) => setProducts(response.products));
   }, []);
-  //um teste
+  //um teste 2
   return (
     <div className="h-screen max-w-3xl mx-auto flex flex-col gap-2 p-4">
       {products.map((product) => (
